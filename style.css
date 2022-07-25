@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(120deg, #487eb0, #fbc531);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 100% !important;
+  margin: auto;
+  padding: 10px;
+}
+
+.txtb {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  background: none;
+  padding: 10px;
+  outline: none;
+  font-size: 18px;
+}
+
+h1.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.task {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+}
+
+.task i {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.status {
+  flex: 50%;
+}
+
+.deleted .task {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+.status-section {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.card {
+  margin: 10px auto;
+  /* width: 24rem; */
+
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-title {
+  text-align: center;
+}
+
+footer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 950px;
+  margin: auto;
+}
+
+.footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: grey;
+}
+
+.sub-footers {
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+.sub-footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.card {
+  width: 600px;
+}

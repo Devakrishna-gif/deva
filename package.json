@@ -1,7 +1,0 @@
-{
-  "name": "@wcd/raminenidevakrishna@gmail.com.plainjs-l60egyvf",
-  "version": "0.0.0",
-  "scripts": {
-    "serve": "npx wcd-cli@latest serve cvYrY7P45XhPXTJ5p3wc --open"
-  }
-}
